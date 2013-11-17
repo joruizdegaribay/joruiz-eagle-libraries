@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -99,9 +99,76 @@
 <text x="-18.161" y="-6.604" size="1.778" layer="25" rot="R90">&gt;NAME</text>
 <text x="-9.779" y="-0.889" size="1.778" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOIC28">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
+wide body 7.5 mm/JEDEC MO-119AB</description>
+<wire x1="9.05" y1="-3.7" x2="-9.05" y2="-3.7" width="0.2032" layer="51"/>
+<wire x1="-9.05" y1="-3.7" x2="-9.05" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="-9.05" y1="-3.2" x2="-9.05" y2="3.7" width="0.2032" layer="51"/>
+<wire x1="-9.05" y1="3.7" x2="9.05" y2="3.7" width="0.2032" layer="51"/>
+<wire x1="9.05" y1="-3.2" x2="-9.05" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="9.05" y1="3.7" x2="9.05" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="9.05" y1="-3.2" x2="9.05" y2="-3.7" width="0.2032" layer="51"/>
+<smd name="2" x="-6.985" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="6.985" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-8.255" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-5.715" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="8.255" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="12" x="5.715" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="11" x="4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="-1.905" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="1.905" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="-3.175" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="3.175" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="0.635" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="15" x="8.255" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="16" x="6.985" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="17" x="5.715" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="18" x="4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="19" x="3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="20" x="1.905" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="21" x="0.635" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="22" x="-0.635" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="23" x="-1.905" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="24" x="-3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="25" x="-4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="26" x="-5.715" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="27" x="-6.985" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="28" x="-8.255" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-8.255" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.255" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-5.9601" y1="-5.32" x2="-5.4699" y2="-3.8001" layer="51"/>
+<rectangle x1="-4.6901" y1="-5.32" x2="-4.1999" y2="-3.8001" layer="51"/>
+<rectangle x1="-3.4201" y1="-5.32" x2="-2.9299" y2="-3.8001" layer="51"/>
+<rectangle x1="-2.1501" y1="-5.32" x2="-1.6599" y2="-3.8001" layer="51"/>
+<rectangle x1="-0.8801" y1="-5.32" x2="-0.3899" y2="-3.8001" layer="51"/>
+<rectangle x1="0.3899" y1="-5.32" x2="0.8801" y2="-3.8001" layer="51"/>
+<rectangle x1="1.6599" y1="-5.32" x2="2.1501" y2="-3.8001" layer="51"/>
+<rectangle x1="2.9299" y1="-5.32" x2="3.4201" y2="-3.8001" layer="51"/>
+<rectangle x1="4.1999" y1="-5.32" x2="4.6901" y2="-3.8001" layer="51"/>
+<rectangle x1="5.4699" y1="-5.32" x2="5.9601" y2="-3.8001" layer="51"/>
+<rectangle x1="6.7399" y1="-5.32" x2="7.2301" y2="-3.8001" layer="51"/>
+<rectangle x1="8.0099" y1="-5.32" x2="8.5001" y2="-3.8001" layer="51"/>
+<rectangle x1="8.0099" y1="3.8001" x2="8.5001" y2="5.32" layer="51"/>
+<rectangle x1="6.7399" y1="3.8001" x2="7.2301" y2="5.32" layer="51"/>
+<rectangle x1="5.4699" y1="3.8001" x2="5.9601" y2="5.32" layer="51"/>
+<rectangle x1="4.1999" y1="3.8001" x2="4.6901" y2="5.32" layer="51"/>
+<rectangle x1="2.9299" y1="3.8001" x2="3.4201" y2="5.32" layer="51"/>
+<rectangle x1="1.6599" y1="3.8001" x2="2.1501" y2="5.32" layer="51"/>
+<rectangle x1="0.3899" y1="3.8001" x2="0.8801" y2="5.32" layer="51"/>
+<rectangle x1="-0.8801" y1="3.8001" x2="-0.3899" y2="5.32" layer="51"/>
+<rectangle x1="-2.1501" y1="3.8001" x2="-1.6599" y2="5.32" layer="51"/>
+<rectangle x1="-3.4201" y1="3.8001" x2="-2.9299" y2="5.32" layer="51"/>
+<rectangle x1="-4.6901" y1="3.8001" x2="-4.1999" y2="5.32" layer="51"/>
+<rectangle x1="-5.9601" y1="3.8001" x2="-5.4699" y2="5.32" layer="51"/>
+<rectangle x1="-7.2301" y1="3.8001" x2="-6.7399" y2="5.32" layer="51"/>
+<rectangle x1="-8.5001" y1="3.8001" x2="-8.0099" y2="5.32" layer="51"/>
+</package>
 </packages>
 <symbols>
-<symbol name="SMT125">
+<symbol name="SM125-M1">
 <wire x1="-15.24" y1="20.32" x2="15.24" y2="20.32" width="0.254" layer="94"/>
 <wire x1="15.24" y1="20.32" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-17.78" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
@@ -133,11 +200,46 @@
 <pin name="VDD_2" x="20.32" y="-12.7" length="middle" rot="R180"/>
 <pin name="IND2_2" x="20.32" y="-15.24" length="middle" rot="R180"/>
 </symbol>
+<symbol name="SM125-IC">
+<pin name="ADRV0" x="-20.32" y="17.78" length="middle"/>
+<pin name="ADRV1" x="-20.32" y="15.24" length="middle"/>
+<pin name="ADRV2" x="-20.32" y="12.7" length="middle"/>
+<pin name="ADRV3" x="-20.32" y="10.16" length="middle"/>
+<pin name="REF" x="-20.32" y="5.08" length="middle"/>
+<pin name="AIS" x="-20.32" y="2.54" length="middle"/>
+<pin name="XRES" x="-20.32" y="-2.54" length="middle"/>
+<pin name="SLEEP" x="-20.32" y="-5.08" length="middle"/>
+<pin name="VCC" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="GND" x="-20.32" y="-27.94" length="middle"/>
+<pin name="FREE2" x="-20.32" y="-15.24" length="middle"/>
+<pin name="RSRV0" x="-20.32" y="-20.32" length="middle"/>
+<pin name="RSRV1" x="-20.32" y="-22.86" length="middle"/>
+<pin name="FREE1" x="-20.32" y="-12.7" length="middle"/>
+<pin name="FREE0" x="-20.32" y="-10.16" length="middle"/>
+<pin name="INPUT0" x="20.32" y="-27.94" length="middle" rot="R180"/>
+<pin name="OUTPUT1" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="OUTPUT0" x="20.32" y="-20.32" length="middle" rot="R180"/>
+<pin name="SREAD" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="TAGF" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="WDATA1" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="WDATA0" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="DREADY" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="I2C_SDA" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="I2C_SCL" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="UART_RX" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="UART_TX" x="20.32" y="12.7" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="20.32" x2="-15.24" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-30.48" x2="15.24" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-30.48" x2="15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<text x="15.24" y="-33.02" size="1.778" layer="96" rot="MR0">&gt;VALUE</text>
+<text x="-15.24" y="22.86" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMT125">
+<deviceset name="SM125-M1">
 <gates>
-<gate name="G$1" symbol="SMT125" x="0" y="0"/>
+<gate name="G$1" symbol="SM125-M1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DIL28">
@@ -166,6 +268,47 @@
 <connect gate="G$1" pin="WDATA0" pad="11"/>
 <connect gate="G$1" pin="WDATA1" pad="18"/>
 <connect gate="G$1" pin="XRES" pad="22"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM125-IC">
+<gates>
+<gate name="G$1" symbol="SM125-IC" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="SOIC28">
+<connects>
+<connect gate="G$1" pin="ADRV0" pad="1"/>
+<connect gate="G$1" pin="ADRV1" pad="5"/>
+<connect gate="G$1" pin="ADRV2" pad="7"/>
+<connect gate="G$1" pin="ADRV3" pad="10"/>
+<connect gate="G$1" pin="AIS" pad="27"/>
+<connect gate="G$1" pin="DREADY" pad="16"/>
+<connect gate="G$1" pin="FREE0" pad="21"/>
+<connect gate="G$1" pin="FREE1" pad="22"/>
+<connect gate="G$1" pin="FREE2" pad="26"/>
+<connect gate="G$1" pin="GND" pad="14"/>
+<connect gate="G$1" pin="I2C_SCL" pad="13"/>
+<connect gate="G$1" pin="I2C_SDA" pad="15"/>
+<connect gate="G$1" pin="INPUT0" pad="6"/>
+<connect gate="G$1" pin="OUTPUT0" pad="2"/>
+<connect gate="G$1" pin="OUTPUT1" pad="17"/>
+<connect gate="G$1" pin="REF" pad="25"/>
+<connect gate="G$1" pin="RSRV0" pad="3"/>
+<connect gate="G$1" pin="RSRV1" pad="4"/>
+<connect gate="G$1" pin="SLEEP" pad="12"/>
+<connect gate="G$1" pin="SREAD" pad="24"/>
+<connect gate="G$1" pin="TAGF" pad="23"/>
+<connect gate="G$1" pin="UART_RX" pad="20"/>
+<connect gate="G$1" pin="UART_TX" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="28"/>
+<connect gate="G$1" pin="WDATA0" pad="11"/>
+<connect gate="G$1" pin="WDATA1" pad="18"/>
+<connect gate="G$1" pin="XRES" pad="19"/>
 </connects>
 <technologies>
 <technology name=""/>
