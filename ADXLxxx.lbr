@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -67,14 +67,14 @@
 <wire x1="-8.89" y1="-8.89" x2="8.89" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="8.89" y1="-8.89" x2="8.89" y2="8.89" width="0.127" layer="21"/>
 <wire x1="8.89" y1="8.89" x2="-8.89" y2="8.89" width="0.127" layer="21"/>
-<text x="8.255" y="8.255" size="1.27" layer="21" rot="R180">&gt;NAME</text>
+<text x="-8.255" y="9.525" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.7625" y="6.0325" size="0.762" layer="21">ST</text>
 <text x="-4.7625" y="3.4925" size="0.762" layer="21">Z</text>
 <text x="-4.7625" y="0.9525" size="0.762" layer="21">Y</text>
 <text x="-4.7625" y="-1.5875" size="0.762" layer="21">X</text>
 <text x="-4.7625" y="-4.1275" size="0.762" layer="21" rot="R3">GND</text>
 <text x="-4.7625" y="-6.6675" size="0.762" layer="21">VCC</text>
-<text x="8.255" y="6.35" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+<text x="8.255" y="-9.525" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
 </package>
 <package name="ADXL362">
 <pad name="4" x="-5.08" y="-3.81" drill="0.8" shape="long"/>
@@ -91,41 +91,41 @@
 <wire x1="6.35" y1="5.08" x2="6.35" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="6.35" y1="-5.08" x2="-6.35" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="-6.35" y1="-5.08" x2="-6.35" y2="5.08" width="0.127" layer="21"/>
-<text x="-6.35" y="-6.985" size="1.27" layer="21">&gt;VALUE</text>
+<text x="5.715" y="-5.715" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
 <wire x1="0.635" y1="5.08" x2="-0.635" y2="5.08" width="0.127" layer="21" curve="-180"/>
-<text x="-6.35" y="5.715" size="1.27" layer="21">&gt;NAME</text>
+<text x="-5.715" y="5.715" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
 <symbol name="ADXL335">
 <pin name="ST" x="-12.7" y="-5.08" length="middle"/>
-<pin name="Z" x="-12.7" y="-2.54" length="middle"/>
-<pin name="Y" x="-12.7" y="0" length="middle"/>
-<pin name="X" x="-12.7" y="2.54" length="middle"/>
-<pin name="GND" x="-12.7" y="5.08" length="middle"/>
-<pin name="VCC" x="-12.7" y="7.62" length="middle"/>
-<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="12.7" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="Z" x="-12.7" y="0" length="middle"/>
+<pin name="Y" x="-12.7" y="2.54" length="middle"/>
+<pin name="X" x="-12.7" y="5.08" length="middle"/>
+<pin name="GND" x="15.24" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCC" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-6.985" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="6.985" y="-8.255" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
 </symbol>
 <symbol name="ADXL362">
-<pin name="SCK" x="-15.24" y="5.08" length="middle"/>
+<pin name="SCK" x="-15.24" y="-2.54" length="middle"/>
 <pin name="MOSI" x="-15.24" y="2.54" length="middle"/>
 <pin name="MISO" x="-15.24" y="0" length="middle"/>
-<pin name="CS" x="-15.24" y="-2.54" length="middle"/>
-<pin name="VCC" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="GND" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="CS" x="-15.24" y="-5.08" length="middle"/>
+<pin name="VCC" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="15.24" y="-7.62" length="middle" direction="pwr" rot="R180"/>
 <pin name="INT1" x="15.24" y="0" length="middle" rot="R180"/>
 <pin name="INT2" x="15.24" y="-2.54" length="middle" rot="R180"/>
 <wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<text x="-10.16" y="10.16" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
-<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-9.525" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="9.525" y="-10.795" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
