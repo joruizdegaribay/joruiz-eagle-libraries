@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -57,10 +57,10 @@
 <library>
 <packages>
 <package name="DUAL_MC33926">
-<wire x1="-13.97" y1="22.86" x2="13.97" y2="22.86" width="0.127" layer="20"/>
-<wire x1="13.97" y1="22.86" x2="13.97" y2="-22.86" width="0.127" layer="20"/>
-<wire x1="13.97" y1="-22.86" x2="-13.97" y2="-22.86" width="0.127" layer="20"/>
-<wire x1="-13.97" y1="-22.86" x2="-13.97" y2="22.86" width="0.127" layer="20"/>
+<wire x1="-13.97" y1="22.86" x2="13.97" y2="22.86" width="0.127" layer="21"/>
+<wire x1="13.97" y1="22.86" x2="13.97" y2="-22.86" width="0.127" layer="21"/>
+<wire x1="13.97" y1="-22.86" x2="-13.97" y2="-22.86" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-22.86" x2="-13.97" y2="22.86" width="0.127" layer="21"/>
 <pad name="1" x="-12.7" y="21.59" drill="0.8" shape="offset"/>
 <pad name="2" x="-12.7" y="19.05" drill="0.8" shape="offset"/>
 <pad name="3" x="-12.7" y="16.51" drill="0.8" shape="offset"/>
@@ -81,24 +81,6 @@
 <pad name="18" x="-12.7" y="-21.59" drill="0.8" shape="offset"/>
 <hole x="11.43" y="20.32" drill="3.2"/>
 <hole x="11.43" y="-20.32" drill="3.2"/>
-<text x="-10.16" y="21.2725" size="0.762" layer="25">M2 FB</text>
-<text x="-10.16" y="18.7325" size="0.762" layer="25">M2 ~SF</text>
-<text x="-10.16" y="16.1925" size="0.762" layer="25">M2 ~PWM/D1</text>
-<text x="-10.16" y="13.6525" size="0.762" layer="25">M2 PWM/~D2</text>
-<text x="-10.16" y="11.1125" size="0.762" layer="25">M2 IN1</text>
-<text x="-10.16" y="8.5725" size="0.762" layer="25">M2 IN2</text>
-<text x="-10.16" y="3.4925" size="0.762" layer="25">SLEW</text>
-<text x="-10.16" y="0.9525" size="0.762" layer="25">EN</text>
-<text x="-10.16" y="-1.5875" size="0.762" layer="25">M1 FB</text>
-<text x="-10.16" y="-4.1275" size="0.762" layer="25">M1 ~SF</text>
-<text x="-10.16" y="-6.6675" size="0.762" layer="25">M1 ~PWM/D1</text>
-<text x="-10.16" y="-9.2075" size="0.762" layer="25">M1 PWM/~D2</text>
-<text x="-10.16" y="-11.7475" size="0.762" layer="25">M1_IN1</text>
-<text x="-10.16" y="-14.2875" size="0.762" layer="25">M1_IN2</text>
-<text x="-10.16" y="-16.8275" size="0.762" layer="25">VCC</text>
-<text x="-10.16" y="-19.3675" size="0.762" layer="25">GND</text>
-<text x="-10.16" y="-21.9075" size="0.762" layer="25">VIN</text>
-<text x="-10.16" y="6.0325" size="0.762" layer="25">INV</text>
 <text x="-13.335" y="23.495" size="1.27" layer="25">&gt;NAME</text>
 <text x="13.335" y="-23.495" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
 </package>
