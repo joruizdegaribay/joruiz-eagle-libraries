@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -237,8 +237,8 @@ distributor Buerklin, 11G810</description>
 <text x="4.191" y="-2.794" size="1.27" layer="21" ratio="10">2</text>
 <text x="-5.588" y="3.556" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="3.556" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<pad name="P$1" x="-5.4" y="0" drill="2" diameter="2.3"/>
-<pad name="P$2" x="5.4" y="0" drill="2" diameter="2.3"/>
+<pad name="P$1" x="-5.7" y="0" drill="2" diameter="2.3"/>
+<pad name="P$2" x="5.7" y="0" drill="2" diameter="2.3"/>
 </package>
 </packages>
 <symbols>
